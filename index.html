@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<script src="main.js" defer></script>
+		<link
+			rel="stylesheet"
+			href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="./img/021-cloudy-1.png" type="image/png" />
+		<title>App del Clima</title>
+	</head>
+	<body>
+		<main>
+			<form id="search-form" action="">
+				<div class="searchbox">
+					<input
+						type="text"
+						autocomplete="off"
+						placeholder="Buscar ciudad..."
+						id="searchbox"
+						class="search"
+					/>
+				</div>
+			</form>
+			<div id="undraw" class="undraw-container">
+				<img class="undraw" src="./img/undraw_Weather_app_re_kcb1.svg" alt="" />
+			</div>
+			<div id="card" class="weather-card">
+				<div id="city" class="city">Ciudad</div>
+				<div id="date" class="date">Fecha</div>
+				<div class="temperature">
+					<img
+						id="temp-img"
+						class="temp-img"
+						src="./img/021-cloudy-1.png"
+						alt=""
+					/>
+					<div id="temp" class="temp">Tº</div>
+				</div>
+				<div id="range" class="range">Tº / Tº</div>
+				<div id="weather" class="weather">Clima</div>
+			</div>
+		</main>
+		<footer>
+			<p>Creado con amor</p>
+			<p>
+				Icons made by
+				<a href="https://www.flaticon.com/authors/linector" title="Linector"
+					>Linector</a
+				>
+				from
+				<a href="https://www.flaticon.com/" title="Flaticon"
+					>www.flaticon.com</a
+				>
+			</p>
+		</footer>
+	</body>
+</html>
