@@ -21,7 +21,16 @@ body {
 	max-width: 600px;
 	margin: 30px auto;
 	border-radius: 25px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+	box-shadow: 0 3.2px 4px -18px rgba(0, 0, 0, 0.21),
+		0 7.1px 8.9px -18px rgba(0, 0, 0, 0.166),
+		0 11.8px 14.8px -18px rgba(0, 0, 0, 0.145),
+		0 17.9px 22.4px -18px rgba(0, 0, 0, 0.13),
+		0 25.8px 32.3px -18px rgba(0, 0, 0, 0.117),
+		0 36.5px 45.7px -18px rgba(0, 0, 0, 0.105),
+		0 51.8px 64.8px -18px rgba(0, 0, 0, 0.093),
+		0 75.2px 94.2px -18px rgba(0, 0, 0, 0.08),
+		0 115.9px 145.1px -18px rgba(0, 0, 0, 0.065),
+		0 206px 258px -18px rgba(0, 0, 0, 0.044);
 }
 .search {
 	width: 100%;
@@ -29,6 +38,7 @@ body {
 	border: none;
 	font-size: 1.8rem;
 	color: var(--bg-color);
+	text-align: center;
 }
 .search:focus {
 	outline: none;
@@ -43,9 +53,18 @@ body {
 	border-radius: 25px;
 	display: none;
 	max-width: 600px;
-	height: 300px;
 	margin: auto;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+	box-shadow: 0 3.2px 4px -18px rgba(0, 0, 0, 0.21),
+		0 7.1px 8.9px -18px rgba(0, 0, 0, 0.166),
+		0 11.8px 14.8px -18px rgba(0, 0, 0, 0.145),
+		0 17.9px 22.4px -18px rgba(0, 0, 0, 0.13),
+		0 25.8px 32.3px -18px rgba(0, 0, 0, 0.117),
+		0 36.5px 45.7px -18px rgba(0, 0, 0, 0.105),
+		0 51.8px 64.8px -18px rgba(0, 0, 0, 0.093),
+		0 75.2px 94.2px -18px rgba(0, 0, 0, 0.08),
+		0 115.9px 145.1px -18px rgba(0, 0, 0, 0.065),
+		0 206px 258px -18px rgba(0, 0, 0, 0.044);
+	box-shadow: inset 22px 22px 25px #1f1f1f, inset -22px -22px 25px #3a3a3a;
 }
 .undraw-container {
 	display: flex;
@@ -61,7 +80,6 @@ body {
 	text-transform: uppercase;
 	margin-bottom: 1rem;
 	letter-spacing: 7px;
-	text-shadow: 2px 2px 1px black;
 }
 .date {
 	font-size: 1.6rem;
@@ -91,13 +109,19 @@ body {
 }
 footer {
 	color: var(--txt-color);
-	font-size: 0.5rem;
 	position: fixed;
 	bottom: 0;
 	border-top: 1px solid var(--txt-color);
 	width: 100%;
 	text-align: center;
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(13.5px);
+	-webkit-backdrop-filter: blur(13.5px);
+	border-radius: 10px;
 }
-footer p {
+footer p,
+a {
 	margin: 1px;
+	font-size: 1rem;
 }
